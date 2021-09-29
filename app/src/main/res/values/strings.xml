@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StudentSchedule</string>
+    <string name="Login">Sign In</string>
 </resources>
