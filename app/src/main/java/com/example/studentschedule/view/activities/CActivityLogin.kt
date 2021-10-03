@@ -1,4 +1,4 @@
-package com.example.studentschedule
+package com.example.studentschedule.view.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +17,7 @@ class CActivityLogin : AppCompatActivity() {
 
         binding.btLogin.setOnClickListener {
             //binding.pbLogin.visibility = View.VISIBLE
-            var intent = Intent(this, CActivityMenu::class.java);
+            var intent = Intent(this, CActivityLessonList::class.java);
             intent.putExtra("LOGIN",binding.etLogin.text.toString())
 
             startActivity(intent)

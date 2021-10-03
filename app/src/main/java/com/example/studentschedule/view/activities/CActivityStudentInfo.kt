@@ -1,4 +1,4 @@
-package com.example.studentschedule
+package com.example.studentschedule.view.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

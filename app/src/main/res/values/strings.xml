@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">StudentSchedule</string>
+    <string name="app_name">Class schedule</string>
     <string name="Login">Sign In</string>
+    <string name="MyAccount">My Account</string>
+    <string name="Exit">Exit</string>
+    <string name="Settings">Settings</string>
+    <string name="Homework">Homework</string>
+    <string name="More">More</string>
 </resources>

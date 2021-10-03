@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CActivityLogin"
+    tools:context=".view.activities.CActivityLogin"
     android:orientation="horizontal">
 
     <TextView
@@ -48,7 +48,7 @@
             android:id="@+id/btLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#20B1B1"
+            android:backgroundTint="@color/main_1"
             android:text="@string/Login" />
 
         <ProgressBar

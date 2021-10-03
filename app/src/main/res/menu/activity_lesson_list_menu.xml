@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/MiAccountDetails"
+        android:title="@string/MyAccount"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/MiMore"
+        android:title="@string/More"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/MiHomework"
+                android:title="@string/Homework"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/MiSettings"
+                android:title="@string/Settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/MiExit"
+                android:title="@string/Exit"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+</menu>
